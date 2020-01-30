@@ -1,0 +1,71 @@
+*{
+    margin:0;
+    padding:0;
+    background-color: #A2AEBB;
+    box-sizing: border-box;
+}
+
+.etchasketch {
+    width:600px;
+    height: 493px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+}
+
+#etchasketch {
+    text-align: center;
+}
+
+.gridContainer {
+    
+    height: 302px;
+    width: 425px;
+    position: absolute;
+    display: grid;
+    top: 88px;
+    left: 85px;
+    
+}
+
+.pickList {
+    text-align: center;
+}
+
+.gridSize {
+    background-color: white;
+}
+
+.fiftyFifty {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.sixtySixty {
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.seventySeventy{
+    text-align: center;
+    color: black;
+    font-size: 20px;
+}
+
+.sixteen {
+    border-radius: 12px;
+    display: grid;
+    grid-template-columns:repeat(16, 1fr);
+    grid-gap: 1px solid black;
+}
+
+.gridCell {
+    background-color: rgb(243, 231, 197);
+    border: 1px solid #c4b99d;
+}
+
+.gridCell:hover{
+    background-color: #c4b99d;
+}
